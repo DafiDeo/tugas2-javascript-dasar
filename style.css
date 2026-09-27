@@ -1,0 +1,46 @@
+/* Variabel Warna Tema KAI */
+:root {
+      --kai-biru:   #0d3b66;
+      --kai-oranye: #f26522;
+    }
+
+    body { background-color: #f4f6f9; }
+
+    /* Warna khas KAI */
+    .navbar-kai { background: linear-gradient(90deg, #0d3b66, #14508c); }
+    .hero-kai   { background: linear-gradient(135deg, #0d3b66, #1a6fb5); }
+    .text-kai   { color: var(--kai-oranye) !important; }
+    .btn-kai    { background-color: var(--kai-oranye); color: #fff; }
+    .btn-kai:hover { background-color: #d9541a; color: #fff; }
+
+    /* Kartu statistik */
+    .card-stat {
+      border: none;
+      border-radius: 1rem;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .card-stat:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 .75rem 1.5rem rgba(13, 59, 102, .12);
+    }
+    .icon-stat {
+      width: 3.2rem; height: 3.2rem;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: .8rem; font-size: 1.5rem;
+    }
+
+    /* Tabel */
+    .table thead th { background-color: var(--kai-biru); color: #fff; white-space: nowrap; }
+    .table tfoot td { background-color: #eef3f8; }
+
+    footer { background-color: var(--kai-biru); }
+
+    /* sorot baris tambah pesanan */
+    .row-baru {
+      animation: sorotBaris 2s ease;
+    }
+
+    @keyframes sorotBaris {
+      0% {background-color: rgba(242, 101, 34, 0.25);}
+      100% {background-color: transparent;}
+    }
