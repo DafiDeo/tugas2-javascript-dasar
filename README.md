@@ -47,7 +47,7 @@ Selain JavaScript, project ini menggunakan **Bootstrap** untuk membantu membuat 
 
 Website dapat dijalankan melalui **GitHub Pages**:
 
-👉 [Buka Demo Website](MAAF BELUM TERSEDIA)
+👉 [Buka Demo Website](https://dafideo.github.io/tugas2-javascript-dasar/)
 
 > Jika GitHub Pages belum diaktifkan, aktifkan melalui **Settings → Pages** pada repository.
 
